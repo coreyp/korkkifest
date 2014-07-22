@@ -79,7 +79,7 @@ main {
 		position: relative;
 	}
 	.hsContent h2  {
-		color: #fff8de;
+		color: #fff;
 		background-color: rgba(0,0,0,0.5);
 		padding: 10px 5px;
 		font-size: 2.5em;
@@ -95,7 +95,6 @@ main {
 		color: #999;
 	}
 
-/* Slide 1 */
 #slide-1 .bcg {background-image:url('../img/bcg_slide-1.jpg')}
 #slide-1 .hsContent {
 	position: absolute;
@@ -105,7 +104,7 @@ main {
 	bottom: 20px;
 	top: auto;
 }
- 
+
 #slide-2 .bcg {background-image:url('../img/bcg_slide-2.jpg')}
 #slide-2 .hsContent {}
 #slide-2 h2 {}
@@ -113,10 +112,9 @@ main {
 #slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
 #slide-3 .hsContent {}
 	#slide-3 h2 {
-		color: #f2ead6;
 		background-color: rgba(0,0,0,0.6);
 	}
- 
+
 #slide-4 .bcg {background-image:url('../img/bcg_slide-4.jpg')}
 #slide-4 .hsContent {
 	position: absolute;
@@ -142,26 +140,30 @@ main {
 	box-shadow: 0 4px 8px #ccc;
 }
 #slide-4 #fb {
-	width: 64px;
-	height: 64px;
+	width: 32px;
+	height: 32px;
 	display: inline-block;
 	background:url('../img/fb.png') no-repeat;
-	margin-left: 15px;
-	margin-bottom: -12px;
+	background-size: 32px 32px;
+	margin-left: 8px;
+	margin-bottom: -4px;
 }
 #slide-4 #fb:hover {
 	background:url('../img/fb-conv.png') no-repeat;
+	background-size: 32px 32px;
 }
 #slide-4 #twitter {
-	width: 64px;
-	height: 64px;
+	width: 32px;
+	height: 32px;
 	display: inline-block;
 	background:url('../img/twitter.png') no-repeat;
+	background-size: 32px 32px;
 	margin-left: 0;
-	margin-bottom: -12px;
+	margin-bottom: -4px;
 }
 #slide-4 #twitter:hover {
 	background:url('../img/twitter-conv.png') no-repeat;
+	background-size: 32px 32px;
 }
 #slide-4 .footer {
 	position: absolute;
@@ -281,5 +283,26 @@ main {
 	#slide-4 .footer p {
 		font-size: 0.8em;
 	}
-
+	#slide-4 #fb {
+		width: 64px;
+		height: 64px;
+		background-size: 64px 64px;
+		margin-left: 15px;
+		margin-bottom: -12px;
 	}
+	#slide-4 #fb:hover {
+		background-size: 64px 64px;
+	}
+	#slide-4 #twitter {
+		width: 64px;
+		height: 64px;
+		background-size: 64px 64px;
+		margin-bottom: -12px;
+	}
+	#slide-4 #twitter:hover {
+		background-size: 64px 64px;
+	}
+
+
+
+}
