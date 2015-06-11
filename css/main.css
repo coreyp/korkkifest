@@ -128,6 +128,13 @@ main {
 		padding-left: 0;
 		padding-right: 0;
 	}
+	.saas h2  {
+		font-size: 4.5em;
+		line-height: 1em;
+		padding: 6px 40px;
+		text-align: center;
+		color: white;
+	}
 #slide-4 .shadow {
 	border: 0;
 	-webkit-transition: margin 0.2s ease-out;
